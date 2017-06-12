@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+
+div {
+  border: 1px solid #000;
+}
+
+.clearfix:after{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.header,
+.footer {
+  height: 100px;
+}
+
+.left,
+.right,
+.content{
+  float: left;
+  height: 500px;
+}
+
+.left,
+.right{
+  width: 25%;
+}
+
+.content {
+  width: 50%;
+}
+
+.footer {
+  clear: both;
+  height: 100px;
+}
